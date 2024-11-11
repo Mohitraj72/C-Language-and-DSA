@@ -1,11 +1,17 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main(){
+int sum(int m, int n) // Function declare
+{
+    int ans = m + n; // function define
+    return ans;
+}
 
-    
-    
-    
-    
-    return 0;
+int main()
+{
+    int a, b;
+    cout << "enter two number: ";
+    cin >> a >> b;
+    // function call
+    cout << sum(a, b);
 }
