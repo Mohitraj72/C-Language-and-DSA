@@ -2,12 +2,14 @@
 using namespace std;
 
 /**
- * @brief Convert a lowercase character to uppercase
+ *  Convert a lowercase character to uppercase
  *
- * @param name The character to be converted
+ *  The character to be converted
  *
- * @return The uppercase version of the character
+ *  The uppercase version of the character
  */
+
+
 char convert(char name)
 {
     char ans = name - 'a' + 'A';
