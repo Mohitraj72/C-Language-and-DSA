@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    // Create vector, declare
+    // Create vector, declareaa
     vector<int> v;
     vector<int> v1(5, 1);
 
